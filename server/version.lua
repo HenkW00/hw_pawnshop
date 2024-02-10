@@ -45,6 +45,7 @@ if Config.checkForUpdates then
                 repoURL = data.html_url
                 repoBody = data.body
             else
+               if err == 0 then
                 repoVersion = curVersion
                 repoURL = "https://github.com/HenkW00/hw_pawnshop"
                 repoBody = "Unable to check for updates due to an error. Please check manually."
