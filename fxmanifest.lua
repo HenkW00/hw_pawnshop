@@ -4,7 +4,7 @@ lua54 'yes'
 
 author 'HenkW'
 description 'HW Pawnshop'
-version '1.2.8'
+version '1.2.9'
 
 client_scripts {
   'client/**.lua'
