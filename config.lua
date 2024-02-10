@@ -1,5 +1,7 @@
 Config = {}
 
+Config.checkForUpdates = true
+
 Config.SellShops = {
 --[[{ --EXAMPLE
         coords = vec3(123.22, 222.22, 12.22), -- Coords of sell shop
