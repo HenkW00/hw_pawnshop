@@ -48,7 +48,7 @@ if Config.checkForUpdates then
                 repoVersion = curVersion
                 repoURL = "https://github.com/HenkW00/hw_pawnshop"
                 repoBody = "Unable to check for updates due to an error. Please check manually."
-                print("^1[ERROR]^0 Unable to check for updates to " .. GetCurrentResourceName() .. ". This may be due to API rate limits or other issues. Please check manually at " .. repoURL)
+                print("^0[^1ERROR^0] Unable to check for updates to " .. GetCurrentResourceName() .. ". This may be due to API rate limits or other issues. Please check manually at " .. repoURL)
             end
         end, "GET")
     
