@@ -4,7 +4,7 @@ lua54 'yes'
 
 author 'HenkW'
 description 'HW Pawnshop'
-version '1.2.2'
+version '1.2.3'
 
 client_scripts {
   'client/**.lua'
@@ -25,8 +25,3 @@ dependencies {
   'ox_lib'
 }
 
-escrow_ignore {
-	'config.lua',
-  'server/server.lua',
-	'fxmanifest.lua',
-}
