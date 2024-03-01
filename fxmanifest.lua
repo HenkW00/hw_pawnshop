@@ -4,7 +4,7 @@ lua54 'yes'
 
 author 'HenkW'
 description 'ESX Advanced pawnshop script for selling certain items'
-version '1.2.9'
+version '1.3.0'
 
 client_scripts {
   'client/**.lua'
