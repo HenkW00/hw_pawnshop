@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'HenkW'
-description 'HW Pawnshop'
+description 'ESX Advanced pawnshop script for selling certain items'
 version '1.2.9'
 
 client_scripts {
