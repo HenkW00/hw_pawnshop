@@ -36,8 +36,8 @@ function logPawnshopTransaction(playerId, item, quantity, price, currency)
                 print("^7[^1Webhook error^7] ^4Script will not work propperly!")
                 print("^7[^1Webhook error^7] ^4Please create/place a webhook in ^3config.lua!")
             else
-                print("^7[^1INFO^7] ^3HW Pawnshop ^7- A player sold item(s) to the pawnshop!")
-                print("^7[^1INFO^7] Succesfully logged action to discord! ^2Status Code: ^3" .. statusCode)
+                print("^1[^2INFO^1] ^5A player ^3sold ^5item(s) to the pawnshop!")
+                print("^1[^2INFO^1] ^5Succesfully logged action to discord! ^2Status Code: ^3" .. statusCode)
             end
         end,
         "POST",
