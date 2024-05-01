@@ -1,41 +1,45 @@
-# HW Development - hw_pawnshop
+# HW Scripts - Pawnshop
 
+## Description
 This script, named hw_pawnshop, introduces a pawnshop feature to your FiveM server, offering an immersive and dynamic way for players to sell items. With a user-friendly configuration file (config.lua), setting up and customizing the pawnshop functionality is a straightforward process.
 
-**Installation**
-Ensure you have the required dependencies installed:
+## Author
+- HW Development | HenkW
 
-- ox_lib
-- qtarget
-- es_extended
+## Changelog:
+- Added version support
+- Removed escrow lock
+- Improved start/stop functions
 
-**Integrate the script into your server's resource folder.**
+## :tools: Requirements
+- ox_lib --> (https://github.com/overextended/ox_lib)
+- qtarget --> (https://github.com/overextended/qtarget)
+- es_extended --> (https://github.com/ESX-Official/es_extended)
 
-Configuration
-```
-> Multiple Sell Shops: Configure multiple sell shops, providing flexibility and variety for players.
-> ox_lib Integration: Leveraging the power of ox_lib, this script optimizes player ped caching, context menu, input dialogs, notifications, and callbacks, resulting in a seamless and efficient experience.
-> Configurable Shop Ped: Tailor the appearance and behavior of the shop ped according to your server's theme and preferences.
-> Blips (Optional/Configurable): Enable or disable blips for the pawnshop on the map, allowing server administrators to choose the level of visibility for players.
-> Payment Currency Configuration: Set configurable payment currencies for different items, adding a layer of realism and diversity to the economy.
-> Minimal Resource Usage: With an impressive 0.00ms usage, this script ensures optimal server performance.
-```
 
-**Pretty self-explanatory in the `config.lua`**
+## :white_check_mark: Features
+- Multiple Sell Shops.
+- ox_lib Integration.
+- Configurable Shop Ped.
+- Blips (Optional/Configurable).
+- Payment Currency Configuration.
+- Minimal Resource Usage.
 
-# Dependencies
-- ox_lib
-- qtarget
-- es_extended
 
-# Features
-- Multiple sell shops
-- ox_lib utilized for cached player ped, context menu, input dialog, notifications, and callbacks
-- Configurable shop ped
-- Configurable / optional blips
-- Configurable payment currency per item
-- 0.00ms usage
 
-### Previews
-https://media.discordapp.net/attachments/894737355418771506/1019657341601329222/unknown.png
-https://media.discordapp.net/attachments/894737355418771506/1019657425030230066/unknown.png
+## :wrench: Download & Installation
+
+Follow these steps to set up the Pawnshop script on your ESX server:
+
+1. **Download the Files**: Download the script files from the provided source.
+2. **Copy to Server Resource Directory**: Place the `hw_pawnshop` folder in the server resource directory.
+3. **Update `server.cfg`**: Add the following line to your `server.cfg` file:
+    ```cfg
+    start hw_pawnshop
+    ```
+4. **Start Your Server**: Restart or start your ESX server to load the `hw_pawnshop` resource.
+
+If help is needed, you can contact me via discord.
+Link for that you can find in console upon restarting the script, otherwise just search for HenkW00 on google/github/CFX
+
+Enjoy the script, i hope you like it! <3
