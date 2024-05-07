@@ -1,6 +1,0 @@
-Update 1.2.2
-
-- Rewritten logging function.
-- Changed print logic for start/stop.
-- Changed version check logic.
-- Changed start/stop console message.
