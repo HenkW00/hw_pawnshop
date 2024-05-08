@@ -4,7 +4,7 @@ lua54 'yes'
 
 author 'HenkW'
 description 'ESX Advanced pawnshop script for selling certain items'
-version '1.3.7'
+version '1.3.8'
 
 client_scripts {
   'client/**.lua'
@@ -22,6 +22,12 @@ shared_scripts {
 dependencies {
   'es_extended',
   'qtarget',
-  'ox_lib'
+  'ox_lib',
+  'hw_utils'
 }
 
+escrow_ignore {
+  'config.lua',
+  'fxmanifest.lua',
+  'README.MD'
+}
